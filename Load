@@ -23,7 +23,7 @@ return function(Type, PatchName)
 
     -- // Load default otherwise
     if (not Success) then
-        local ModuleFormat = "https://github.com/EfialDaHood/DaHood-Stuff/blob/main/Module"
+        local ModuleFormat = "https://raw.githubusercontent.com/EfialDaHood/DaHood-Stuff/main/Aiming"
         loadstring(game:HttpGet(ModuleFormat:format(Type)))()
     end
 
