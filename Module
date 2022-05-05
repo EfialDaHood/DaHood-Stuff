@@ -43,15 +43,15 @@ local AimingSettings = {
     Enabled = true,
     VisibleCheck = true,
     HitChance = 100,
-    TargetPart = {"Head", "HumanoidRootPart"},
+    TargetPart = {"HumanoidRootPart"},
     RaycastIgnore = nil,
 
     FOVSettings = {
         Circle = Drawingnew("Circle"),
         Enabled = true,
         Scale = 60,
-        Sides = 12,
-        Colour = Color3fromRGB(231, 84, 128)
+        Sides = 300,
+        Colour = Color3fromRGB(0, 25, 0)
     },
 
     TracerSettings = {
